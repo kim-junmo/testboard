@@ -6,8 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import lombok.extern.slf4j.Slf4j;
 
-
-@Slf4j
 @MapperScan(basePackages = {"com.docmall.demo.mapper"})
 @SpringBootApplication
 public class ThBoardApplication {
